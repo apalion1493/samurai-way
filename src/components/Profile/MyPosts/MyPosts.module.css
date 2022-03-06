@@ -1,0 +1,30 @@
+.title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.button {
+    margin-top: 20px;
+    margin-left: auto;
+    background: lightgreen;
+    padding: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.textarea {
+    width: 100%;
+}
+
+.postList {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}

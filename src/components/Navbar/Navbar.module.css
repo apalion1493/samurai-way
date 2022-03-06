@@ -1,0 +1,25 @@
+.sidebar {
+    grid-area: sidebar;
+    background: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar__ul {
+    padding: 0;
+}
+
+.sidebar__nav {
+    padding: 20px;
+    list-style-type: none;
+}
+
+.sidebar__navLink a {
+    color: #fff;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.sidebar__navLink a.active {
+    color: gold;
+}

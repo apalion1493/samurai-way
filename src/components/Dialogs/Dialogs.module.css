@@ -1,0 +1,51 @@
+.dialogs {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.dialogsTitle {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.dialogsWrapper {
+    display: grid;
+    grid-template-columns: 3fr 10fr;
+    gap: 20px;
+    height: 100%;
+}
+
+.dialogsItems {
+    border-right: 1px solid;
+}
+
+.dialog {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.dialog.active {
+    color: green;
+    font-size: 24px;
+}
+
+.dialog:last-child {
+    margin-bottom: 0;
+}
+
+.dialogForm {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.messages {
+
+}
+
+.message {
+
+}

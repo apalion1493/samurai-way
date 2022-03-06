@@ -1,0 +1,21 @@
+.post {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.like {
+    margin-left: auto;
+    padding-left: 10px;
+}
